@@ -1,7 +1,6 @@
 # newsvender-model
 
-[![tests](https://github.com/takazawa/newsvendor-model/actions/workflows/test.yml/badge.svg)](https://github.com/takazawa/newsvendor-model/actions/workflows/test.yml)
-
+[![test](https://github.com/takazawa/newsvendor-model/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/takazawa/newsvendor-model/actions/workflows/test.yml)
 
 This repository is a Python implementation of the [Newsvendor Model](https://en.wikipedia.org/wiki/Newsvendor_model).
 
