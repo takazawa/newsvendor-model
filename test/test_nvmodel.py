@@ -61,6 +61,9 @@ def poisson_pmf(x, mu=25):
 
 
 def test_poisson_sample():
+    """
+    This is based on the sample of Section 3 from http://www.columbia.edu/~gmg2/4000/pdf/lect_07.pdf
+    """
     model = DiscreteNewsvendorModel(retail_price=8, cost_price=5, probability_function=poisson_pmf, salvaged_revenue=4)
     q_opt = model.optimal_quantity()
     assert q_opt == 28
