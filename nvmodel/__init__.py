@@ -1,1 +1,3 @@
-from .model import NewsvendorModel
+from .model import ContinuousNewsvendorModel, DiscreteNewsvendorModel
+
+__all__ = ["ContinuousNewsvendorModel", "DiscreteNewsvendorModel"]
