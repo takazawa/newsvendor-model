@@ -77,10 +77,10 @@ model = ContinuousNewsvendorModel(retail_price=7,
 
 Now, we can calculate values
 
-- $\frac{p-c}{c} = $ `model.critical_ratio()`
-- $q_{\text{opt}} = $ `model.optimal_quantity()`
-- $F(q, D) = $ `model.revenue(q, D)`
-- $E[F(q, D)] = $  `model.expected_revenue(q)`
+- `model.critical_ratio()` $=\frac{p-c}{c}$
+- `model.optimal_quantity()`  $=q_{\text{opt}}$
+- `model.revenue(q, D)` $=F(q, D)$
+- `model.expected_revenue(q)` $=E[F(q, D)]$
 
 ```python
 >> q_opt = model.optimal_quantity()
