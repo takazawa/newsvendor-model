@@ -53,7 +53,7 @@ class BaseNewsvendorModel(metaclass=ABCMeta):
                 break
             else:
                 demand += 1
-        self._max_demand = demand
+        self._max_demand = demand + 1
         return self._max_demand
 
 
